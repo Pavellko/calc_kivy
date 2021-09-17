@@ -12,7 +12,6 @@ class MainApp(App):
         self.solution2 = Label(text="My Calculator", font_size=55)
         main_layout.add_widget(self.solution2)
         main_layout.add_widget(self.solution)
-
         
         buttons = [
             ["7", "8", "9", "/"],
