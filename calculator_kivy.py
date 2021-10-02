@@ -7,9 +7,9 @@ from kivy.uix.label import Label
 class MainApp(App):
 
     def build(self):
-        main_layout = BoxLayout(orientation = "vertical", padding=10, spacing=10)
+        main_layout = BoxLayout(orientation = "vertical", padding=20, spacing=20)
         self.solution = TextInput(multiline=False, readonly=False, halign="right", font_size=55)
-        self.solution2 = Label(text="My Calculator", font_size=55)
+        self.solution2 = Label(text="My Calculator", font_size=55, color= (1, 0, 0, 1))
         main_layout.add_widget(self.solution2)
         main_layout.add_widget(self.solution)
         
